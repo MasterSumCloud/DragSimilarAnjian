@@ -20,6 +20,15 @@ allprojects {
         jcenter()
         
     }
+
+//    configurations.all {
+//        resolutionStrategy.eachDependency {
+//            if (it.requested.group == 'com.blankj'
+//                    && !it.requested.name.contains('utilcode')) {
+//                it.useVersion '1.24.2'
+//            }
+//        }
+//    }
 }
 
 task clean(type: Delete) {
